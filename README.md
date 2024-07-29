@@ -31,7 +31,7 @@ Download the necessary data from NSE and run the code.
 1. After downloading the repository, visit the [NSE website](https://www.nseindia.com) to find a stock futures contract for a company of your choice. For demonstration, let's use [STEEL AUTHORITY OF INDIA LIMITED (INE114A01011)](https://www.nseindia.com/get-quotes/equity?symbol=SAIL).
 
 2. Under derivatives, find a contract of your choice and note down the `Market Lot`.
-![NSE Website with SAIL Details](https://imgur.com/a/UBYrLDu)
+![NSE Website with SAIL Details](images/1.png)
 
 3. Download the historical data for that contract for your desired time period, and also find the `Open Price` of the first day of the contract and note it down.
 ![SAIL Contract Historical Data](https://imgur.com/a/TtHtiL0)
