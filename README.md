@@ -34,12 +34,12 @@ Download the necessary data from NSE and run the code.
 ![NSE Website with SAIL Details](images/1.png)
 
 3. Download the historical data for that contract for your desired time period, and also find the `Open Price` of the first day of the contract and note it down.
-![SAIL Contract Historical Data](https://imgur.com/a/TtHtiL0)
+![SAIL Contract Historical Data](images/2.png)
 
 4. Open the CSV file, convert it to a .xlsx format, rename it to `Data.xlsx`, and save it in the same folder of the downloaded repository.
 
 5. Under the equity section, locate the information icon next to `Applicable Margin Rate`. Click on it to find values of `VaR Margin` and `Applicable Margin Rate`, and note it down.
-![Locating necessary rates](https://imgur.com/a/ALEM5UD)
+![Locating necessary rates](images/3.png)
 
 6. You can now run the code using your code editor while loading the folder containing the repository, or execute the following command within the repository:
 ```
@@ -47,16 +47,16 @@ python3 FuturesPositionAndMarginManagementTool.py
 ```
 
 7. You will see a popup requesting the necessary information you noted earlier. Enter this information and click `Submit`.
-![Popup Showing Data to be Entered](https://imgur.com/a/BJlzXcK)
+![Popup Showing Data to be Entered](images/4.png)
 
 8. The following files will be generated: one for the `short position`, one for the `long position`, and `FSD_Output.xlsx`, which combines both workbooks.
-![Generated Files](https://imgur.com/a/MMTsPYm)
+![Generated Files](images/5.png)
 
 9. You will receive raw, unformatted Excel files as output, which will look something like this:
-![Unformatted Output File](https://imgur.com/a/Vjw18BD)
+![Unformatted Output File](images/6.png)
 
 However, you can format these files quickly to achieve an output like this or according to your preferences:
-![Final Formatted File](https://imgur.com/a/Ts9E93V)
+![Final Formatted File](images/7.png)
 
 10. To use the program again, simply run it once more. Note that the existing data in the files will be overwritten, so it’s recommended to move the files to another location or manually delete them to avoid losing any important information.
 ## License
